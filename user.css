@@ -1,10 +1,17 @@
 body{
-	background-color: peachpuff;
+	background-color: AntiqueWhite;
 	color:black;
+	text-transform: capitalize;
 
 }
-table{
-	border
+/*table{
 	border: solid 2px black;
+
+}*/
+p{
+	text-align: center;
+}
+.photo_url , .user_id , .name , .session_token {
+	padding: 0 10px;
 
 }
