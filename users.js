@@ -25,7 +25,7 @@ $(document).ready(function () {
 
         }
     });
-      $.("table").vizualize();
+     
 
     // $("tr").on(click, function(){
     //     var href= $(.this)
