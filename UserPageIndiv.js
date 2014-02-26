@@ -14,7 +14,16 @@ $(document).ready(function () {
         	// $(this) method 
         	$('body .head').append("<div class=\"photo_url\">" + ("<img src='" + data.accounts[i].photo_url + "'/>") + "</div>");
         	$('body .head').append('<h1 class="user_id">'+ data.accounts[i].turbo_user_id + '</h1>');
-        	// $('body').append('<ul class=""
+        	// finding total matches but using dummy data for now.
+        	// $('body .sideUl').append('<li class="total_matches">' + data.account[i].total_matches +'</li>');
+       		$('body .sideUl').append('<li class="total_matches">' + "Total Matches" +'</li>');
+       		// same thing as above: code is ready to be run but not set up on the server right meow.
+        	// $('body .sideUl').append('<li class="total_wins">' + data.account[i].total_wins +'</li>');
+        	$('body .sideUl').append('<li class="total_wins">' + "Total Wins" +'</li>');
+
+
+
+
         }
     });
         console.log("got info")

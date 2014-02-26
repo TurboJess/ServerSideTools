@@ -14,4 +14,11 @@ h1{
 	display:inline;
 }
 
+.sideUlContainer{
+	max-width: 20%;
+	float:left;
+	background-color: pink;
+	
+
+}
 
