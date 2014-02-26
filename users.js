@@ -7,7 +7,7 @@ $(document).ready(function () {
             'account': 'all'
         },
         // once json data is retrieved with the get request using ajaax then display teh following table rows.
-    }).then(function (data) {
+        }).then(function (data) {
         // for loop for looping through th elenght o fth json data
         for(var i = 0; i < data.accounts.length; i++){
             // creates the table row every time a new instance is created
@@ -26,12 +26,6 @@ $(document).ready(function () {
         }
     });
      
-
-    // $("tr").on(click, function(){
-    //     var href= $(.this)
-    // })
-       
-
     console.log('finished');
 });
 

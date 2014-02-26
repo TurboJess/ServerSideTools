@@ -18,7 +18,10 @@ h1{
 	max-width: 20%;
 	float:left;
 	background-color: pink;
-	
+	min-height: 900px;
 
 }
 
+ul{
+	list-style: none;
+}
