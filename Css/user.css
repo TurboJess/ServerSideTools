@@ -1,10 +1,6 @@
-
-/*This is an old style sheet */
-
-
-/*body{
-/*	background-color: DeepPink;*/
-/*	color:black;
+body{
+	/*background-color: DeepPink;*/
+	color:black;
 	text-transform: capitalize;
 
 }
@@ -12,7 +8,7 @@
 	border: solid 2px black;
 
 }*/
-/*p{
+p{
 	text-align: center;
 }
 tr {
@@ -28,8 +24,7 @@ tr .photo_url img{
 
 tr .photo_url, tr .user_id, tr .name, tr .session_token{
 	padding: 10px;
-	background-color: white;
 }
 th{
 	margin:10px;
-}**//*/
+}
