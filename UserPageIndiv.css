@@ -1,12 +1,17 @@
 body{
-	background-color: blue;
+	background-color: deepPink;
 }
 
 .head{
 	background-color: peachpuff;
 
 }
+.photo_url{
+	display:inline-block;
+}
 
 h1{
 	display:inline;
 }
+
+
