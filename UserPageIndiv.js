@@ -26,5 +26,12 @@ $(document).ready(function () {
 
         }
     });
+    
+    $(".total_matches").on("click", function)({
+        for(var i = 0; i< data.)
+        $('.dataRendered').append('<ul>')
+        $('.dataRendered').append('<li>')
+    })
+
         console.log("got info")
 });
