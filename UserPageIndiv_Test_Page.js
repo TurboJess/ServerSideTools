@@ -10,13 +10,13 @@ $(document).ready(function () {
         	// $('body .sideUl').append('<li class="total_wins">' + data.account[i].total_wins +'</li>');
         	$('body .sideUl').append('<li class="total_wins">' + "Total Wins" +'</li>');
 
-
-            $('.dataRendered').append('<tr class=\"tMatches\">');
-            $('.dataRendered').append("<td class=\"photo\">" + 'Photo Here' + "</td>");
-            $('.dataRendered').append("<td class=\'userId'\>" + "User Name Here" + "</td>");
-            $('.dataRendered').append("<td class=\'name'\>" + "Name Here" + "</td>");
-            $('#myTable tbody').append("<td class=\"session_token\" href=\"this.session_token\">" + "SessionId here" + "</td>");
-            $('#myTable tbody').append("</tr><br>"); 
+            $('.dataRendered ').prepend('<h1 class="heading_section tAc">Total Matches</h1>')
+            $('.dataRendered table').append('<tr class=\"tMatches\">');
+            $('.dataRendered table').append("<td class=\"photo\">" + 'Photo Here' + "</td>");
+            $('.dataRendered table').append("<td class=\'userId'\>" + "User Name Here" + "</td>");
+            $('.dataRendered table').append("<td class=\'name'\>" + "Name Here" + "</td>");
+            $('.dataRendered table').append("<td class=\"session_token\" href=\"this.session_token\">" + "SessionId here" + "</td>");
+            $('.dataRendered table').append("</tr><br>"); 
 
 
 

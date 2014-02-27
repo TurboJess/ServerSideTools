@@ -34,3 +34,29 @@ ul{
 	float: left;
 	padding-right: 10px;
 }
+
+.container{
+	background-color: red;
+}
+
+.dataRendered{
+	float: right;
+	min-width: 90%;
+	background-color: purple;
+
+}
+tr{
+	border-bottom: 1px black solid;
+
+}
+
+/*personal styles*/
+
+.tAc{
+	text-align: center;
+}
+
+.center{
+	text-align: center;
+	margin: 0 auto;
+}
