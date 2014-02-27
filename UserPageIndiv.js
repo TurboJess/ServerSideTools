@@ -27,11 +27,17 @@ $(document).ready(function () {
         }
     });
     
-    $(".total_matches").on("click", function)({
-        for(var i = 0; i< data.)
-        $('.dataRendered').append('<ul>')
-        $('.dataRendered').append('<li>')
-    })
+    // $(".total_matches").on("click", function)({
+    //     // i may need to change this to a table similar to what is found in user.js
+    //     for(var i = 0; i< data. //not sure what to add here\\  )
+    //     $('.dataRendered').append('<tr class=\"tMatches\">');
+    //     $('.dataRendered').append("<td class=\"photo\">" + 'Photo Here' + "</td>");
+    //     $('.dataRendered').append("<td class=\'userId'\>" + "User Name Here" + "</td>");
+    //     $('.dataRendered').append("<td class=\'name'\>" + "Name Here" + "</td>");
+    //         $('#myTable tbody').append("<td class=\"session_token\" href=\"this.session_token\">" + "SessionId here" + "</td>");
+    //     $('#myTable tbody').append("</tr><br>"); 
+
+    // })
 
         console.log("got info")
 });
