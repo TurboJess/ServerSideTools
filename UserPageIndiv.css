@@ -28,27 +28,27 @@ h1{
 ul{
 	list-style: none;
 	float:left;
+	padding: 10px;
+	
 }
 
-.sideUL li{
-	float: left;
-	padding-right: 10px;
-}
+
 
 .container{
-	background-color: red;
+	/*background-color: red;*/
 }
 
 .dataRendered{
 	float: right;
 	min-width: 90%;
 	background-color: purple;
-
+	margin-top: 10px;
 }
-tr{
+
+/*tr{
 	border-bottom: 1px black solid;
 
-}
+}*/
 
 /*personal styles*/
 
@@ -59,4 +59,8 @@ tr{
 .center{
 	text-align: center;
 	margin: 0 auto;
+}
+
+table{
+	border: 1px solid black;
 }
